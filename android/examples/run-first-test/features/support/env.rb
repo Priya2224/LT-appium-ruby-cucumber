@@ -4,7 +4,7 @@ require 'selenium-cucumber'
 require 'appium_lib'
 
 # 1. Credentials from Environment or YAML
-username = ENV['LT_USERNAME'] || "priyasharmalambdatest"
+username = ENV['LT_USERNAME']
 accessToken = ENV['LT_ACCESS_KEY']
 
 # 2. Load YAML Config
