@@ -257,7 +257,7 @@ caps = {
 bundle install
 bundle exec rake first
 ```
-Alternative command: If rake is not configured, you can run bundle exec cucumber directly in these folders.
+Alternative command: If rake is not configured, you can run "bundle exec cucumber" directly in these folders.
 
 ### **Speed up test execution with parallel testing :**
 
