@@ -161,12 +161,14 @@ browser_caps:
     "platformVersion": "11"
     "app": "APP_URL"      # Add your app url here
 
+```
 **W3C Capabilities (Ruby 3.4 Fix)**
 
 You must update your env.rb file (located in features/support/) using Symbols for keys.
 
 Android Example:
 
+```bash
 caps = {
   "platformName" => full_caps["platform"] || "Android",
   "appium:deviceName" => full_caps["deviceName"] || "Galaxy S21 5G",
@@ -206,12 +208,13 @@ browser_caps:
     "platformVersion": "13"
     "app": "APP_URL"      # Add your app url here
 
+```
 **W3C Capabilities (Ruby 3.4 Fix)**
 
 You must update your env.rb file (located in features/support/) using Symbols for keys.
 
 ios Example:
-
+```bash
 caps = {
   "platformName" => full_caps["platform"] || "ios",
   "appium:deviceName" => full_caps["deviceName"] || "iPhone 15",
@@ -228,9 +231,7 @@ caps = {
     "isRealMobile" => true
   }
 }
-
 ```
-
 </TabItem>
 
 </Tabs>
