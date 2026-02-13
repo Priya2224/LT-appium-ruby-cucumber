@@ -142,6 +142,8 @@ You can update your custom capabilities in test scripts. In this sample project,
 
 <TabItem value="android-config" label="Android" default>
 
+**Android**
+
 ```ruby title="Android first.config.yml)"
 server: "mobile-hub.lambdatest.com"
 user: "LT_USERNAME"    # Add Lambdatest username here
@@ -189,6 +191,8 @@ caps = {
 
 </TabItem>
 <TabItem value="ios-config" label="iOS" default>
+
+**Ios**
 
 ```ruby title="iOS first.config.yml"
 server: "mobile-hub.lambdatest.com"
